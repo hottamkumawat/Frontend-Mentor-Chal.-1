@@ -1,0 +1,59 @@
+/*---------------------------------- CSS RESET ---------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*----------------------------------- MAIN -------------------------*/
+#main{
+    height: 100vh;
+    width: 100vw;
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main #qr-box{
+    height: 75vh;
+    width: 50vh;
+    background-color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+#main #qr-box #qr-box-top-part{
+    height: 65%;
+    width: 100%;
+}
+
+#main #qr-box #qr-box-top-part img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#main #qr-box #qr-box-bottom-part{
+    height: 35%;
+    width: 100%;
+    padding: 15px 0px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#main #qr-box #qr-box-bottom-part h1{
+    font-size: 1.5rem;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+
+#main #qr-box #qr-box-bottom-part p{
+    font-size: 17px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    margin-top: 15px;
+}
